@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Day3 {
 
-	public int lengthOfLongestSubstring(String s) {
+	public static int lengthOfLongestSubstring(String s) {
 		int ret = 0;
 		List<Character> attempt = new ArrayList<Character>();
 		char[] splited = s.toCharArray();
@@ -28,7 +28,7 @@ public class Day3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		System.out.println(lengthOfLongestSubstring("a"));
 	}
 
 }
